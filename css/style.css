@@ -1,0 +1,84 @@
+#container{
+  display: flex;
+  -webkit-flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#slider{
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+}
+
+#slider .slides{
+  dispaly: block;
+  width: 3000px;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#slider .slide{
+  float: left;
+  display: inline;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  right: 500px;
+}
+/* 
+#previous{
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+} */
+
+
+
+
+
+
+/* #wrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+#container{
+  text-align: center;
+  vertical-align: baseline;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+#slider{
+text-align: center;
+display: flex;
+align-items: center;
+flex-direction: row;
+-webkit-justify-content: center;
+justify-content: center;
+  overflow: hidden;
+}
+
+#slider, #slides{
+  display: block;
+  width: 2500px;
+  height: 500px;
+}
+
+#slider, .slide{
+  float: left;
+  list-style: none;
+  height: 500px;
+  width: 500px;
+}
+ */
